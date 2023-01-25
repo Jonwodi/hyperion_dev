@@ -1,0 +1,20 @@
+.navigation {
+  &__logo {
+    padding-top: 20px !important;
+    margin-right: 50px;
+  }
+
+  &__title {
+    padding-top: 18px;
+  }
+
+  &__profile {
+    font-weight: bold;
+    font-size: 22px;
+  }
+}
+
+.navbar-default {
+  background-color: var(--light-light);
+  border-color: #e7e7e7;
+}
