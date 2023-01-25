@@ -1,6 +1,7 @@
 .trial {
   background-color: white;
-  padding: 50px 30px;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 50px #e3e3e3;
 
   &__rchevron {
     margin-left: 10px;
@@ -11,11 +12,10 @@
   }
 
   &__divider {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 60px 0;
   }
 
-  &__lblock {
+  &__rblock {
     margin-top: 40px;
   }
 }
