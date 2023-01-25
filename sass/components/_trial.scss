@@ -1,0 +1,21 @@
+.trial {
+  background-color: white;
+  padding: 50px 30px;
+
+  &__rchevron {
+    margin-left: 10px;
+  }
+
+  &__tick {
+    margin-left: 10px;
+  }
+
+  &__divider {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  &__lblock {
+    margin-top: 40px;
+  }
+}

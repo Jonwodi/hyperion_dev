@@ -1,7 +1,7 @@
 :root {
   --dark_alert: #e75625;
   --light_alert: #ee572a;
-  --light_light: #ffffff;
+  --light: #ffffff;
   --dark_light: #fafafa;
   --dark_dark: #000000;
   --light_dark: #272727;
@@ -53,4 +53,26 @@ body {
 .navbar-default {
   background-color: var(--light-light);
   border-color: #e7e7e7;
+}
+
+.box {
+  border: 1px red dotted;
+}
+
+.trial {
+  background-color: white;
+  padding: 50px 30px;
+}
+.trial__rchevron {
+  margin-left: 10px;
+}
+.trial__tick {
+  margin-left: 10px;
+}
+.trial__divider {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.trial__lblock {
+  margin-top: 40px;
 }/*# sourceMappingURL=main.css.map */
