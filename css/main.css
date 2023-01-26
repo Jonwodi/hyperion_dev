@@ -140,6 +140,10 @@ body {
   font-size: 10px;
 }
 
+.page_content {
+  padding-bottom: 100px;
+}
+
 .navigation__logo {
   padding-top: 20px !important;
   margin-right: 50px;
@@ -216,6 +220,37 @@ body {
 }
 .trial__btn {
   margin-top: 13px;
+}
+.trial__lwblock_h {
+  margin-top: 55px;
+  margin-bottom: 3px;
+  padding-left: 40px;
+}
+.trial__developer {
+  padding-left: 15px;
+}
+.trial__developer_type {
+  width: 250px;
+  height: 93.75px;
+}
+@media screen and (min-width: 767px) {
+  .trial__developer_type {
+    width: 200px;
+    height: 75px;
+  }
+}
+.trial__developer_img {
+  width: 125px;
+  height: 93.75px;
+}
+@media screen and (min-width: 767px) {
+  .trial__developer_img {
+    width: 100px;
+    height: 75px;
+  }
+}
+.trial__developer_boxes {
+  margin-top: 29px;
 }
 
 .bootcamp__divider {

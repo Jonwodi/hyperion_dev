@@ -55,4 +55,36 @@
   &__btn {
     margin-top: 13px;
   }
+
+  &__lwblock_h {
+    margin-top: 55px;
+    margin-bottom: 3px;
+    padding-left: 40px;
+  }
+
+  &__developer {
+    padding-left: 15px;
+  }
+
+  &__developer_type {
+    @media screen and (min-width: 767px) {
+      width: 200px;
+      height: 75px;
+    }
+    width: 250px;
+    height: 93.75px;
+  }
+
+  &__developer_img {
+    @media screen and (min-width: 767px) {
+      width: 100px;
+      height: 75px;
+    }
+    width: 125px;
+    height: 93.75px;
+  }
+
+  &__developer_boxes {
+    margin-top: 29px;
+  }
 }
