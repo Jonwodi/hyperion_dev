@@ -1,6 +1,6 @@
 :root {
-  --dark_alert: #e75625;
-  --light_alert: #ee572a;
+  --danger: #e75625;
+  --alert: #ee572a;
   --light: #ffffff;
   --dark_light: #fafafa;
   --dark_dark: #000000;
@@ -8,6 +8,7 @@
   --slate: #e8e8e8;
   --light_grey: #989898;
   --dark_grey: #5f5f5f;
+  --green: #2dcc70;
 }
 
 @font-face {
@@ -30,12 +31,80 @@
   border: 1px red dotted;
 }
 
+h3 {
+  font-family: "Avenir Light";
+}
+
 h4 {
   font-family: "Avenir Heavy";
 }
 
+p {
+  font-family: "Avenir Light";
+}
+
 body {
   background-color: var(--dark_light);
+}
+
+.btn {
+  font-family: "Avenir Heavy";
+}
+
+.btn-danger {
+  color: var(--light);
+  background-color: var(--alert);
+  border: 0px;
+}
+
+.btn-danger:hover {
+  background-color: var(--green);
+}
+
+.btn-primary {
+  color: var(--alert);
+  background-color: var(--dark_light);
+  border: 2px solid var(--alert);
+}
+
+.btn-primary:hover {
+  background-color: var(--alert);
+  border: 0px;
+}
+
+.btn-warning {
+  color: var(--danger);
+  background-color: var(--light);
+  border: 2px solid var(--danger);
+}
+
+.btn-warning:hover {
+  color: var(--light);
+  background-color: var(--danger);
+  border: 2px solid var(--danger);
+}
+
+.btn-warning:active {
+  color: var(--light);
+  background-color: var(--danger);
+  border: 2px solid var(--danger);
+}
+
+.btn-warning.active {
+  color: var(--light);
+  background-color: var(--danger);
+  border: 2px solid var(--danger);
+}
+
+.btn-warning:focus {
+  color: var(--light);
+  background-color: var(--danger);
+  border: 2px solid var(--danger);
+}
+
+.glyphicon {
+  top: 0px;
+  font-size: 10px;
 }
 
 .navigation__logo {
@@ -71,10 +140,13 @@ body {
   margin-left: 10px;
 }
 .trial__divider {
-  margin: 60px 0;
+  margin: 60px 0 37px 0;
 }
 .trial__rblock {
   margin-top: 40px;
+}
+.trial__progress {
+  font-family: "Avenir Light";
 }
 
 .bootcamp {
