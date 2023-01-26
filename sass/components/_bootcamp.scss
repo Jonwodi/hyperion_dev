@@ -1,5 +1,83 @@
 .bootcamp {
+  h4 {
+    padding-left: 0px;
+    @media screen and (max-width: 767px) {
+      padding-left: 42px;
+    }
+  }
   &__divider {
     margin: 40px 0;
+  }
+
+  &__question {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  &__heading {
+    margin-bottom: 17x;
+  }
+
+  &__n1 {
+    color: var(--alert);
+    font-size: 30px;
+    font-style: bold;
+    margin-right: 10px;
+  }
+
+  &__n4 {
+    color: var(--alert);
+    font-size: 30px;
+    font-style: bold;
+    margin-right: 10px;
+  }
+
+  &__total {
+    display: flex;
+    align-items: center;
+  }
+
+  &__total_box {
+    padding-left: 0px;
+    @media screen and (max-width: 767px) {
+      padding-left: 42px;
+    }
+  }
+
+  &__info_p {
+    padding: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    @media screen and (max-width: 767px) {
+      padding-left: 42px;
+      padding-right: 50px;
+    }
+  }
+
+  &__ubtn {
+    @media screen and (max-width: 767px) {
+      padding-left: 42px;
+    }
+  }
+
+  &__btn2 {
+    @media screen and (max-width: 767px) {
+      margin-top: 26px;
+    }
+  }
+
+  &__last_p {
+    margin-top: 13px;
+    @media screen and (max-width: 767px) {
+      padding-left: 42px;
+    }
+  }
+
+  &__last_btn {
+    margin-top: 13px;
+    @media screen and (max-width: 767px) {
+      padding-left: 42px;
+    }
   }
 }
