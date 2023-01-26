@@ -1,6 +1,4 @@
-// .box {
-//   border: 1px red dotted;
-// }
+// Custom global CSS styles and styles to overide Boostrap CSS Classes
 h1,
 h2,
 h3,
@@ -13,6 +11,7 @@ h6 {
 
 body {
   background-color: var(--dark_light);
+  padding-bottom: 230px;
 }
 
 .btn {
@@ -116,6 +115,20 @@ body {
   border-color: #e7e7e7;
 }
 
-.page_content {
-  padding-bottom: 230px;
+.dropdown-menu li {
+  font-size: 16px;
+  font-family: "Avenir Heavy";
+  padding: 10px 0px;
+}
+
+.dropdown-menu a {
+  color: var(--dark);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 65px;
+  z-index: 1000;
+  min-width: 10px;
+  font-size: 16px;
 }

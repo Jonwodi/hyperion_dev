@@ -1,8 +1,50 @@
-// .bootcamp {
-//   h4 {
-//     padding-left: 0px;
-//     @media screen and (max-width: 767px) {
-//       padding-left: 42px;
-//     }
-//   }
-// }
+// Custom CSS Styles for Bootcamp section
+.bootcamp {
+  h2 {
+    font-size: 19px;
+    margin-top: 85px;
+    margin-bottom: 80px;
+    padding-left: 40px;
+  }
+
+  img {
+    height: 70px;
+  }
+
+  &__cards {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__card {
+    background-color: var(--light);
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 50px #e3e3e3;
+
+    div {
+      font-size: 17px;
+      font-family: "Avenir Heavy";
+      height: 70px;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+    }
+  }
+
+  // Custom CSS Styles for Bootcamp section for mobile devices
+  @media screen and (max-width: 767px) {
+    padding: 0 30px;
+    h2 {
+      padding-left: 0px;
+    }
+    &__card {
+      margin-bottom: 30px;
+      min-width: 100%;
+    }
+
+    &__cards {
+      flex-direction: column;
+    }
+  }
+}

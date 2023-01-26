@@ -1,3 +1,4 @@
+// Custom CSS Styles for get info section
 .get_info {
   h2 {
     font-size: 19px;
@@ -20,7 +21,10 @@
     }
   }
 
+  // Custom CSS Styles for get info section for mobile devices
   @media screen and (max-width: 767px) {
+    padding: 0 30px;
+
     &__cta {
       a {
         margin-bottom: 10px;

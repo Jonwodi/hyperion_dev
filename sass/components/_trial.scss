@@ -1,5 +1,6 @@
+// Custom CSS Styles for Trial section
 .trial {
-  background-color: white;
+  background-color: var(--light);
   padding: 50px 40px;
   box-shadow: 5px 5px 50px #e3e3e3;
 
@@ -23,9 +24,6 @@
 
   &__btns {
     margin-top: 17px;
-    @media screen and (max-width: 767px) {
-      margin-top: 7px;
-    }
   }
 
   &__btn {
@@ -43,19 +41,11 @@
   }
 
   &__developer_type {
-    @media screen and (min-width: 767px) {
-      width: 200px;
-      height: 75px;
-    }
     width: 250px;
     height: 93.75px;
   }
 
   &__developer_img {
-    @media screen and (min-width: 767px) {
-      width: 100px;
-      height: 75px;
-    }
     width: 125px;
     height: 93.75px;
   }
@@ -68,7 +58,9 @@
     font-size: 28px;
   }
 
+  // Custom CSS Styles for Trial section for mobile devices
   @media screen and (max-width: 767px) {
+    margin-top: 10px;
     &__urblock {
       margin-left: 0px;
       h3 {
@@ -81,5 +73,19 @@
     &__php {
       width: 80px;
     }
+
+    &__developer_img {
+      width: 100px;
+      height: 75px;
+    }
+
+    &__developer_type {
+      width: 200px;
+      height: 75px;
+    }
+  }
+
+  &__btns {
+    margin-top: 7px;
   }
 }

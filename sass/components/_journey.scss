@@ -1,3 +1,4 @@
+// Custom CSS Styles for Journey section
 .journey {
   margin-top: 28px;
   h2 {
@@ -28,5 +29,10 @@
     font-size: 17px;
     padding-top: 6px;
     color: var(--light_grey);
+  }
+
+  // Custom CSS Styles for Journey section for mobile devices
+  @media screen and (max-width: 767px) {
+    padding: 0 30px;
   }
 }

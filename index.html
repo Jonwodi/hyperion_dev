@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <!-- Navigation -->
+  <!-- Navbar -->
   <nav class="navbar navigation" role="navigation">
     <div class="container-fluid">
       <div class="row">
@@ -34,14 +34,13 @@
         </div>
         <div class="col-xs-3 col-sm-2">
           <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="" class="dropdown-toggle" data-toggle="dropdown">
+            <li class="dropdown box">
+              <a href="" class="dropdown-toggle profile_link" data-toggle="dropdown">
                 <div class="row">
                   <div class="col-xs-4"><img src="images/student.png" class="img-circle" width="20px" alt=""></div>
-                  <div class="col-xs-8 navigation__profile">profile</div>
+                  <div class="col-xs-8 navigation__profile">Profile</div>
                 </div>
               </a>
-              <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a> -->
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Edit profile</a></li>
                 <li><a href="#">Log out</a></li>
@@ -50,13 +49,13 @@
           </ul>
         </div>
       </div>
-    </div><!-- /.container-fluid -->
+    </div>
   </nav>
 
-  <!-- Site Content -->
-  <div class="container page_content">
+  <!-- Page content wrapper -->
+  <div class="container">
     <div class="row">
-      <!-- LBLOCK -->
+      <!-- Trial section -->
       <div class="col-md-8">
         <section class="trial">
           <div class="row">
@@ -91,38 +90,41 @@
           </div>
           <div class="row">
             <div class="col-md-6 trial__btn">
-              <a class="btn btn-warning btn-block active" href="#" role="button">HTML Basics</a>
+              <a class="btn btn-warning btn-block" href="#" role="button">HTML Basics</a>
             </div>
             <div class="col-md-6 trial__btn">
               <a class="btn btn-warning btn-block" href="#" role="button">Your First PHP Script</a>
             </div>
           </div>
         </section>
-        <section class="">
+
+        <!-- Bootcamp section -->
+        <section class="bootcamp">
           <div class="row">
-            <div class="col-xs-12">
-              <h4 class="trial__lwblock_h">Trial another Bootcamp</h4>
+            <div class="col-md-12">
+              <h2>Trial another Bootcamp</h2>
             </div>
           </div>
-          <div class="row trial__developer">
-            <div class="col-md-6 trial__developer_boxes">
-              <img class="trial__developer_img" src="images/layer-115.png" width="100px" height="75px" alt="">
-              <img class="trial__developer_type" src="images/mobile-developer-bootcamp.png" alt="">
+          <div class="bootcamp__cards">
+            <div class="bootcamp__card">
+              <img src="images/layer-115.png" alt="">
+              <div>Mobile Developer Bootcamp</div>
             </div>
-            <div class="col-md-6 trial__developer_boxes"">
-              <img class=" trial__developer_img" src="images/layer-114.png" alt="">
-              <img class="trial__developer_type" src="images/software-engineer-bootcamp.png" alt="">
+            <div class="bootcamp__card">
+              <img src="images/layer-114.png" alt="">
+              <div>Software Engineer Bootcamp</div>
             </div>
           </div>
         </section>
       </div>
-      <!-- RBLOCK -->
+
+      <!-- Journey section -->
       <div class="col-md-4">
         <section class="journey">
           <div class="row">
             <div class="col-xs-12 journey__header">
               <h2>Your Coding Journey</h2>
-              <i class="glyphicon glyphicon-question-sign journey__icon"></i>
+              <i class="glyphicon glyphicon-question-sign journey__icon hidden-xs"></i>
             </div>
           </div>
           <div class="row">
@@ -137,6 +139,7 @@
 
         <hr class="divider" />
 
+        <!-- Get info section -->
         <section class="get_info">
           <div class="row">
             <div class="col-md-12">
@@ -163,6 +166,7 @@
 
         <hr class="divider" />
 
+        <!-- Upgrade section but uses the same CSS styles as get info section -->
         <section class="get_info">
           <div class="row">
             <div class="col-md-12">
