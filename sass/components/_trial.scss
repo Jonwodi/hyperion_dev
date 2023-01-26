@@ -11,38 +11,14 @@
     margin-left: 10px;
   }
 
-  &__divider {
-    margin: 60px 0 37px 0;
-    @media screen and (max-width: 767px) {
-      padding-left: 10px;
-      margin: 30px 0 17px 0;
-    }
-  }
-
   &__progress {
     font-family: "Avenir Light";
   }
 
   &__urblock {
-    margin-left: -50px;
-    margin-top: -20px;
     display: flex;
     flex-flow: column wrap;
     gap: 22px;
-    @media screen and (max-width: 767px) {
-      margin-left: 0px;
-    }
-    h3 {
-      @media screen and (max-width: 767px) {
-        padding-left: 10px;
-      }
-    }
-  }
-
-  &__php {
-    @media screen and (max-width: 991px) {
-      width: 100px;
-    }
   }
 
   &__btns {
@@ -86,5 +62,24 @@
 
   &__developer_boxes {
     margin-top: 29px;
+  }
+
+  &__heading {
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 767px) {
+    &__urblock {
+      margin-left: 0px;
+      h3 {
+        padding-left: 10px;
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+
+    &__php {
+      width: 80px;
+    }
   }
 }

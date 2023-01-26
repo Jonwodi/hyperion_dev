@@ -1,0 +1,32 @@
+.journey {
+  margin-top: 28px;
+  h2 {
+    font-size: 19px;
+  }
+
+  &__icon {
+    color: var(--light_grey);
+    font-size: 25px;
+    padding: 4px 0;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  &__number {
+    color: var(--alert);
+    font-size: 30px;
+    font-family: "Avenir Heavy";
+    font-weight: bold;
+  }
+
+  &__text {
+    font-size: 17px;
+    padding-top: 6px;
+    color: var(--light_grey);
+  }
+}

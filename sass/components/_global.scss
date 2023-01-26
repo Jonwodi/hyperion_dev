@@ -1,17 +1,14 @@
-.box {
-  border: 1px red dotted;
-}
-
-h3 {
-  font-family: "Avenir Light";
-}
-
-h4 {
-  font-family: "Avenir Heavy";
-}
-
-p {
-  font-family: "Avenir Light";
+// .box {
+//   border: 1px red dotted;
+// }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -20,6 +17,7 @@ body {
 
 .btn {
   font-family: "Avenir Heavy";
+  padding: 10px 0px;
 }
 
 .btn-danger {
@@ -29,13 +27,15 @@ body {
 }
 
 .btn-danger:hover {
-  background-color: var(--green);
+  background-color: var(--alert);
+  opacity: 0.8;
 }
 
 .btn-danger:active {
   color: var(--light);
   background-color: var(--green);
   border: 0px;
+  opacity: 0.8;
 }
 
 .btn-danger.active {
@@ -111,10 +111,11 @@ body {
   font-size: 10px;
 }
 
-.page_content {
-  padding-bottom: 230px;
+.navbar-default {
+  background-color: var(--light-light);
+  border-color: #e7e7e7;
 }
 
-.page_rblock {
-  padding-top: 28px;
+.page_content {
+  padding-bottom: 230px;
 }

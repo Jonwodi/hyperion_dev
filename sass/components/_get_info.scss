@@ -1,0 +1,30 @@
+.get_info {
+  h2 {
+    font-size: 19px;
+    margin-bottom: 25px;
+  }
+
+  p {
+    color: var(--light_grey);
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+
+  &__cta {
+    display: flex;
+    gap: 15px;
+    .btn {
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 1px solid var(--alert);
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    &__cta {
+      a {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
