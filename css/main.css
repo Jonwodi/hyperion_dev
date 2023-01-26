@@ -61,6 +61,24 @@ body {
   background-color: var(--green);
 }
 
+.btn-danger:active {
+  color: var(--light);
+  background-color: var(--green);
+  border: 0px;
+}
+
+.btn-danger.active {
+  color: var(--light);
+  background-color: var(--green);
+  border: 0px;
+}
+
+.btn-danger:focus {
+  color: var(--light);
+  background-color: var(--green);
+  border: 0px;
+}
+
 .btn-primary {
   color: var(--alert);
   background-color: var(--dark_light);
@@ -68,6 +86,21 @@ body {
 }
 
 .btn-primary:hover {
+  background-color: var(--alert);
+  border: 0px;
+}
+
+.btn-primary:focus {
+  background-color: var(--alert);
+  border: 0px;
+}
+
+.btn-primary:active {
+  background-color: var(--alert);
+  border: 0px;
+}
+
+.btn-primary.active {
   background-color: var(--alert);
   border: 0px;
 }
@@ -142,16 +175,10 @@ body {
 .trial__divider {
   margin: 60px 0 37px 0;
 }
-.trial__rblock {
-  margin-top: 40px;
-}
 .trial__progress {
   font-family: "Avenir Light";
 }
 
-.bootcamp {
-  padding-top: 40px;
-}
 .bootcamp__divider {
   margin: 40px 0;
 }/*# sourceMappingURL=main.css.map */
