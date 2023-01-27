@@ -172,10 +172,6 @@ body {
   color: var(--alert);
 }
 
-.page_content {
-  padding-top: 150px;
-}
-
 .navigation {
   padding-bottom: 10px;
   margin-bottom: 75px;
